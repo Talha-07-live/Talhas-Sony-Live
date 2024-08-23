@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>9 Windows with Buttons</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        .window {
+            width: 30%;
+            margin: 10px;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            padding: 20px;
+        }
+        .window img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+        .window button {
+            margin-top: 10px;
+            padding: 10px 20px;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            background-color: #007bff;
+            color: white;
+            cursor: pointer;
+        }
+        .window button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Window 1 -->
+    <div class="window">
+        <img src="https://s12.gifyu.com/images/So9tO.png" alt="Image 1">
+        <button onclick="openLink('https://drmlive.in/Sonyliv/?play=sony-ten-1')">Sony Ten 1</button>
+    </div>
+
+    <!-- Window 2 -->
+    <div class="window">
+        <img src="https://s12.gifyu.com/images/So9tB.png" alt="Image 2">
+        <button onclick="openLink('https://drmlive.in/Sonyliv/?play=sony-ten-2')">Sony Ten 2</button>
+    </div>
+
+    <!-- Window 3 -->
+    <div class="window">
+        <img src="https://s12.gifyu.com/images/So9tA.png" alt="Image 3">
+        <button onclick="openLink('https://drmlive.in/Sonyliv/?play=sony-ten-3')">Sony Ten 3</button>
+    </div>
+
+    <!-- Window 4 -->
+    <div class="window">
+        <img src="https://s12.gifyu.com/images/So9ty.png" alt="Image 4">
+        <button onclick="openLink('https://drmlive.in/Sonyliv/?play=sony-ten-5')">Sony Ten 5</button>
+    </div>
+
+    <!-- Window 5 -->
+    <div class="window">
+        <img src="https://s10.gifyu.com/images/So9Aq.png" alt="Image 5">
+        <button onclick="openLink('https://drmlive.in/Sonyliv/?play=sony-ten-1-hd')">Sony Ten 1 HD</button>
+    </div>
+
+    <!-- Window 6 -->
+    <div class="window">
+        <img src="https://s10.gifyu.com/images/So9Av.png" alt="Image 6">
+        <button onclick="openLink('https://drmlive.in/Sonyliv/?play=sony-ten-2-hd')">Sony Ten 2 HD</button>
+    </div>
+
+    <!-- Window 7 -->
+    <div class="window">
+        <img src="https://s10.gifyu.com/images/So9Am.png" alt="Image 7">
+        <button onclick="openLink('https://drmlive.in/Sonyliv/?play=sony-ten-3-hd')">Sony Ten 3 HD</button>
+    </div>
+
+    <!-- Window 8 -->
+    <div class="window">
+        <img src="https://s10.gifyu.com/images/So9AI.png" alt="Image 8">
+        <button onclick="openLink('https://drmlive.in/Sonyliv/?play=sony-ten-4-hd')">Sony Ten 4 HD</button>
+    </div>
+
+    <!-- Window 9 -->
+    <div class="window">
+        <img src="https://s10.gifyu.com/images/So9A7.png" alt="Image 9">
+        <button onclick="openLink('https://drmlive.in/Sonyliv/?play=sony-ten-5-hd')">Sony Ten 5 HD</button>
+    </div>
+
+    <script>
+        function openLink(url) {
+            window.open(url, '_blank');
+        }
+    </script>
+
+</body>
+</html>
